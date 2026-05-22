@@ -17,10 +17,10 @@ public class FaceBook {
 
     public static void main(String[] args) {
 
-        System.out.println(likes(new String[]{}));
-        System.out.println(likes(new String[]{"Peter"}));
-        System.out.println(likes(new String[]{"Jacob", "Alex"}));
-        System.out.println(likes(new String[]{"Max", "John", "Mark"}));
-        System.out.println(likes(new String[]{"Alex", "Jacob", "Mark", "Max"}));
-    }
-}
+        System.out.println(likes()); 
+       System.out.println(likes("Peter"));
+        System.out.println(likes("Jacob", "Alex"));
+        System.out.println(likes("Max", "John", "Mark"));
+        System.out.println(likes("Alex", "Jacob", "Mark", "Max"));
+       }
+     }
